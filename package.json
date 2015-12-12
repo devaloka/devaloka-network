@@ -1,0 +1,42 @@
+{
+    "name"           : "devaloka-network",
+    "version"        : "0.1.0",
+    "description"    : "Provides Network-specific things",
+    "keywords"       : [
+        "wordpress",
+        "plugin",
+        "multisite",
+        "network",
+        "boilerplate"
+    ],
+    "homepage"       : "https://github.com/devaloka/devaloka-network",
+    "bugs"           : {
+        "url": "https://github.com/devaloka/devaloka-network/isssues"
+    },
+    "license"        : "(MIT OR GPL-2.0 OR GPL-3.0)",
+    "author"         : {
+        "name" : "Whizark",
+        "email": "devaloka@whizark.com",
+        "url"  : "http://whizark.com"
+    },
+    "files"          : [
+        "./MIT-LICENSE.txt",
+        "./GPL-LICENSE.txt",
+        "./devaloka-network.php",
+        "./loader/*",
+        "./src/*"
+    ],
+    "main"           : "./devaloka-network.php",
+    "repository"     : {
+        "type": "git",
+        "url" : "https://github.com/devaloka/devaloka-network.git"
+    },
+    "scripts"        : {
+        "lint"       : "mdast -u mdast-lint README.md",
+        "lint-travis": "mdast -f -u mdast-lint README.md"
+    },
+    "devDependencies": {
+        "mdast"     : "~2.3.0",
+        "mdast-lint": "~1.1.1"
+    }
+}

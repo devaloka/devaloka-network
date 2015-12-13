@@ -34,7 +34,7 @@ class NetworkProvider implements ServiceProviderInterface, BootableProviderInter
 
     public function __construct($file)
     {
-        $this->file      = $file;
+        $this->file = $file;
     }
 
     public function register(Devaloka $devaloka, ContainerInterface $container)

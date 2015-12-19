@@ -18,6 +18,3 @@ A WordPress Plugin boilerplate that provides Network-specific things.
     ```sh
     composer require devaloka/devaloka-network
     ```
-
-2.  Move `loader/30-devaloka-network-loader.php` into
-    `<ABSPATH>wp-content/mu-plugins/`.

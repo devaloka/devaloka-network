@@ -11,8 +11,8 @@
 namespace Devaloka\Plugin\Network;
 
 use Devaloka\Plugin\AbstractPlugin;
-use Devaloka\DependencyInjection\ContainerAwareTrait;
-use Devaloka\DependencyInjection\ContainerAwareInterface;
+use Devaloka\Component\DependencyInjection\ContainerAwareTrait;
+use Devaloka\Component\DependencyInjection\ContainerAwareInterface;
 use Devaloka\Plugin\TranslatablePluginInterface;
 use Devaloka\Plugin\TranslatablePluginTrait;
 

@@ -16,12 +16,12 @@ use Devaloka\Devaloka;
 use Devaloka\Provider\ServiceProviderInterface;
 use Devaloka\Provider\BootableProviderInterface;
 use Devaloka\Provider\EventListenerProviderInterface;
-use Devaloka\DependencyInjection\ContainerInterface;
-use Devaloka\DependencyInjection\ContainerAwareInterface;
+use Devaloka\Component\DependencyInjection\ContainerInterface;
+use Devaloka\Component\DependencyInjection\ContainerAwareInterface;
 use Devaloka\Translation\TranslatorAwareInterface;
 use Devaloka\Plugin\TranslatablePluginInterface;
 use Devaloka\Plugin\ActivatablePluginInterface;
-use Devaloka\EventDispatcher\EventDispatcherAwareInterface;
+use Devaloka\Component\EventDispatcher\EventDispatcherAwareInterface;
 
 /**
  * Class NetworkProvider

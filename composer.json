@@ -34,7 +34,7 @@
     "require"          : {
         "php"                         : ">=5.5.9",
         "devaloka/mu-plugin-installer": "~0.1.0",
-        "devaloka/devaloka"           : "~0.5.0",
+        "devaloka/devaloka"           : "~0.7.0",
         "devaloka/devaloka-plugin"    : "~0.6.0"
     },
     "require-dev"      : {

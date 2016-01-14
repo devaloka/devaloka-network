@@ -10,7 +10,7 @@
 
 if (!function_exists('devaloka_network')) {
     /**
-     * @return \Devaloka\Plugin\Network\Network|\Devaloka\Common\NullObject
+     * @return \Devaloka\Plugin\Network\Network|\Ecailles\NullObject\NullObject
      */
     function devaloka_network()
     {
@@ -22,7 +22,7 @@ if (!function_exists('deva_network')) {
     /**
      * @see devaloka_network() :alias:
      *
-     * @return \Devaloka\Plugin\Network\Network|\Devaloka\Common\NullObject
+     * @return \Devaloka\Plugin\Network\Network|\Ecailles\NullObject\NullObject
      */
     function deva_network()
     {
@@ -34,7 +34,7 @@ if (!function_exists('dl_network')) {
     /**
      * @see devaloka_network() :alias:
      *
-     * @return \Devaloka\Plugin\Network\Network|\Devaloka\Common\NullObject
+     * @return \Devaloka\Plugin\Network\Network|\Ecailles\NullObject\NullObject
      */
     function dl_network()
     {

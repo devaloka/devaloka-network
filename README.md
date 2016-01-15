@@ -1,4 +1,9 @@
-# Devaloka Network Plugin Boilerplate [![Build Status][travis-image]][travis-url] [![Packagist][packagist-image]][packagist-url]
+# Devaloka Network Plugin Boilerplate
+
+[![Latest Stable Version][stable-image]][stable-url]
+[![Latest Unstable Version][unstable-image]][unstable-url]
+[![License][license-image]][license-url]
+[![Build Status][travis-image]][travis-url]
 
 A WordPress Plugin boilerplate that provides Network-specific things.
 
@@ -19,8 +24,14 @@ A WordPress Plugin boilerplate that provides Network-specific things.
     composer require devaloka/devaloka-network
     ```
 
+[stable-image]: https://poser.pugx.org/devaloka/devaloka-network/v/stable
+[stable-url]: https://packagist.org/packages/devaloka/devaloka-network
+
+[unstable-image]: https://poser.pugx.org/devaloka/devaloka-network/v/unstable
+[unstable-url]: https://packagist.org/packages/devaloka/devaloka-network
+
+[license-image]: https://poser.pugx.org/devaloka/devaloka-network/license
+[license-url]: https://packagist.org/packages/devaloka/devaloka-network
+
 [travis-image]: https://travis-ci.org/devaloka/devaloka-network.svg?branch=master
 [travis-url]: https://travis-ci.org/devaloka/devaloka-network
-
-[packagist-image]: https://img.shields.io/packagist/v/devaloka/devaloka-network.svg
-[packagist-url]: https://packagist.org/packages/devaloka/devaloka-network
